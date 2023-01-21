@@ -1,0 +1,144 @@
+/*C1*/SET SCHEMA SYSTEM_LOBS
+INSERT INTO LOB_IDS VALUES(169,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 170
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=168
+INSERT INTO BLOCKS VALUES(168,1,0)
+INSERT INTO BLOCKS VALUES(169,2147483478,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=168
+INSERT INTO LOBS VALUES(168,1,0,169)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=169
+INSERT INTO LOB_IDS VALUES(169,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(169,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(169,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold Italic',0.0E0,FALSE,169)
+DELETE FROM SONGS WHERE ID=2
+INSERT INTO SONGS VALUES(2,'','','','','','','Verse 1\u000a[G]\u000aAj keby nekvitol f\u00edk, \u000aaj keby nerodila zem,\u000aaj keby nebes\u00e1 nedoniesli \u000asvetlo a nov\u00e9 r\u00e1no.\u000a\u000aVerse 1\u000aA aj ke\u010f polia zlyhaj\u00fa \u000aa s\u00fdpky pr\u00e1zdne ostan\u00fa\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u000a\u017ee Boh nie je.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy  \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000auprostred tr\u00e1pen\u00ed, \u000auprostred s\u00fa\u017een\u00ed - Je\u017ei\u0161 je P\u00e1n.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000alebo ver\u00edm, v Neho ver\u00edm,\u000aaj keby nekvitol f\u00edk ...\u000a\u000aVerse 2\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed \u000aa je tak \u0165a\u017ek\u00e9 odpusti\u0165,\u000ake\u010f sa m\u00fary v mojom vn\u00fatri zrazu r\u00facaj\u00fa.\u000a\u000aVerse 2\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, \u000aslzy sa tla\u010dia do o\u010d\u00ed,\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u000a\u010do v Teba d\u00fafaj\u00fa.','','V1 C V2 C','Aj keby nekvitol f\u00edk',169,'',169)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=8
+INSERT INTO LOB_IDS VALUES(8,82,0,30)
+DELETE FROM LOB_IDS WHERE LOB_ID=169
+INSERT INTO LOB_IDS VALUES(169,82,1,30)
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(170,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 171
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=169
+INSERT INTO BLOCKS VALUES(169,1,0)
+INSERT INTO BLOCKS VALUES(170,2147483477,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=169
+INSERT INTO LOBS VALUES(169,1,0,170)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=170
+INSERT INTO LOB_IDS VALUES(170,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(170,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(170,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold Italic',0.0E0,FALSE,170)
+DELETE FROM SONGS WHERE ID=2
+INSERT INTO SONGS VALUES(2,'','','','','','','Verse 1\u000aG\u000aAj keby nekvitol f\u00edk, \u000aaj keby nerodila zem,\u000aaj keby nebes\u00e1 nedoniesli \u000asvetlo a nov\u00e9 r\u00e1no.\u000a\u000aVerse 1\u000aA aj ke\u010f polia zlyhaj\u00fa \u000aa s\u00fdpky pr\u00e1zdne ostan\u00fa\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u000a\u017ee Boh nie je.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy  \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000auprostred tr\u00e1pen\u00ed, \u000auprostred s\u00fa\u017een\u00ed - Je\u017ei\u0161 je P\u00e1n.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000alebo ver\u00edm, v Neho ver\u00edm,\u000aaj keby nekvitol f\u00edk ...\u000a\u000aVerse 2\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed \u000aa je tak \u0165a\u017ek\u00e9 odpusti\u0165,\u000ake\u010f sa m\u00fary v mojom vn\u00fatri zrazu r\u00facaj\u00fa.\u000a\u000aVerse 2\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, \u000aslzy sa tla\u010dia do o\u010d\u00ed,\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u000a\u010do v Teba d\u00fafaj\u00fa.','','V1 C V2 C','Aj keby nekvitol f\u00edk',170,'',170)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=169
+INSERT INTO LOB_IDS VALUES(169,82,0,30)
+DELETE FROM LOB_IDS WHERE LOB_ID=170
+INSERT INTO LOB_IDS VALUES(170,82,1,30)
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(171,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 172
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=170
+INSERT INTO BLOCKS VALUES(170,1,0)
+INSERT INTO BLOCKS VALUES(171,2147483476,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=170
+INSERT INTO LOBS VALUES(170,1,0,171)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=171
+INSERT INTO LOB_IDS VALUES(171,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(171,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(171,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold Italic',0.0E0,FALSE,171)
+DELETE FROM SONGS WHERE ID=2
+INSERT INTO SONGS VALUES(2,'','','','','','','Verse 1\u000aG       C\u000aAj keby nekvitol f\u00edk, \u000aF     E\u000aaj keby nerodila zem,\u000aaj keby nebes\u00e1 nedoniesli \u000asvetlo a nov\u00e9 r\u00e1no.\u000a\u000aVerse 1\u000aA aj ke\u010f polia zlyhaj\u00fa \u000aa s\u00fdpky pr\u00e1zdne ostan\u00fa\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u000a\u017ee Boh nie je.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy  \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000auprostred tr\u00e1pen\u00ed, \u000auprostred s\u00fa\u017een\u00ed - Je\u017ei\u0161 je P\u00e1n.\u000a\u000aChorus \u000a\u00c1no, pr\u00e1ve vtedy \u000apozdvihnem svoj hlas \u000aa budem spieva\u0165 chv\u00e1ly,\u000a\u000aChorus \u000alebo ver\u00edm, v Neho ver\u00edm,\u000aaj keby nekvitol f\u00edk ...\u000a\u000aVerse 2\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed \u000aa je tak \u0165a\u017ek\u00e9 odpusti\u0165,\u000ake\u010f sa m\u00fary v mojom vn\u00fatri zrazu r\u00facaj\u00fa.\u000a\u000aVerse 2\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, \u000aslzy sa tla\u010dia do o\u010d\u00ed,\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u000a\u010do v Teba d\u00fafaj\u00fa.','','V1 C V2 C','Aj keby nekvitol f\u00edk',171,'',171)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=170
+INSERT INTO LOB_IDS VALUES(170,82,0,30)
+DELETE FROM LOB_IDS WHERE LOB_ID=171
+INSERT INTO LOB_IDS VALUES(171,82,1,30)
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(172,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 173
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=171
+INSERT INTO BLOCKS VALUES(171,1,0)
+INSERT INTO BLOCKS VALUES(172,2147483475,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=171
+INSERT INTO LOBS VALUES(171,1,0,172)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=172
+INSERT INTO LOB_IDS VALUES(172,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(172,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(172,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','New...',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold',0.0E0,FALSE,172)
+INSERT INTO SONGS VALUES(153,'','','','','','','{title: Aj keby nekvitol f\u00edk}\u000aF#m Bm7 Dmaj7 C#7\u000a______________\u000a\u000a{start_of_verse: Sloha 1}\u000a{comment: Sloha 1}\u000a                 F#m                   Dmaj7\u000aAj keby nekvitol f\u00edk, aj keby nerodila zem,\u000a        Bm                A              C#7\u000aaj keby nebes\u00e1 nedoniesli svetlo a nov\u00e9 r\u00e1no.\u000a         F#m                   Dmaj7\u000aA aj ke\u010f polia zlyhaj\u00fa a s\u00fdpky pr\u00e1zdne ostan\u00fa,\u000a       Bm           A              C#7\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u017ee Boh nie je.\u000a{end_of_verse}\u000a\u000a{start_of_chorus: Refr\u00e9n 1}\u000a{comment: Refr\u00e9n 1}\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7\u000aa budem spieva\u0165 chv\u00e1ly,\u000a          F#m                Bm7     E7\u000auprostred tr\u00e1pen\u00ed, uprostred s\u00fa\u017een\u00ed, Je\u017ei\u0161 je P\u00e1n.\u000a{end_of_chorus}\u000a\u000a{start_of_chorus: Refr\u00e9n 2}\u000a{comment: Refr\u00e9n 2}\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7     F#m     H7    F#m     H7 H\u000aa budem spieva\u0165 chv\u00e1ly, lebo ver\u00edm, v Neho ver\u00edm,\u000a                 F#m\u000aaj keby nekvitol f\u00edk.\u000a{end_of_chorus}\u000a\u000a{start_of_verse: Sloha 2}\u000a{comment: Sloha 2}\u000a           F#m                     Dmaj7\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed a je tak \u0165a\u017ek\u00e9 odpusti\u0165.\u000a       Bm7            A           C#7\u000aKe\u010f sa m\u00fary v mojom vn\u00fatri, zrazu r\u00facaj\u00fa.\u000a        F#m                           Dmaj7\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, slzy sa tla\u010dia do o\u010d\u00ed,\u000a          Bm            A              C#7\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u010do v teba d\u00fafaj\u00fa.\u000a{end_of_verse}\u000a\u000a{start_of_bridge: Bridge}\u000a{comment: Bridge}\u000aF#m  Bm7 Dmaj7 C#7\u000a\u00c1 \u00c1 \u00c1__________\u000a{end_of_bridge}','','','Aj keby nekvitol fik copy',172,'',172)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=172
+INSERT INTO LOB_IDS VALUES(172,82,1,30)
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(173,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 174
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=172
+INSERT INTO BLOCKS VALUES(172,1,0)
+INSERT INTO BLOCKS VALUES(173,2147483474,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=172
+INSERT INTO LOBS VALUES(172,1,0,173)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=173
+INSERT INTO LOB_IDS VALUES(173,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(173,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(173,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold Italic',0.0E0,FALSE,173)
+DELETE FROM SONGS WHERE ID=153
+INSERT INTO SONGS VALUES(153,'','','','','','','F#m Bm7 Dmaj7 C#7\u000a______________\u000a\u000a                 F#m                   Dmaj7\u000aAj keby nekvitol f\u00edk, aj keby nerodila zem,\u000a        Bm                A              C#7\u000aaj keby nebes\u00e1 nedoniesli svetlo a nov\u00e9 r\u00e1no.\u000a         F#m                   Dmaj7\u000aA aj ke\u010f polia zlyhaj\u00fa a s\u00fdpky pr\u00e1zdne ostan\u00fa,\u000a       Bm           A              C#7\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u017ee Boh nie je.\u000a{end_of_verse}\u000a\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7\u000aa budem spieva\u0165 chv\u00e1ly,\u000a          F#m                Bm7     E7\u000auprostred tr\u00e1pen\u00ed, uprostred s\u00fa\u017een\u00ed, Je\u017ei\u0161 je P\u00e1n.\u000a\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7     F#m     H7    F#m     H7 H\u000aa budem spieva\u0165 chv\u00e1ly, lebo ver\u00edm, v Neho ver\u00edm,\u000a                 F#m\u000aaj keby nekvitol f\u00edk.\u000a{end_of_chorus}\u000a\u000a           F#m                     Dmaj7\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed a je tak \u0165a\u017ek\u00e9 odpusti\u0165.\u000a       Bm7            A           C#7\u000aKe\u010f sa m\u00fary v mojom vn\u00fatri, zrazu r\u00facaj\u00fa.\u000a        F#m                           Dmaj7\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, slzy sa tla\u010dia do o\u010d\u00ed,\u000a          Bm            A              C#7\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u010do v teba d\u00fafaj\u00fa.\u000a{end_of_verse}\u000a\u000a{start_of_bridge: Bridge}\u000a{comment: Bridge}\u000aF#m  Bm7 Dmaj7 C#7\u000a\u00c1 \u00c1 \u00c1__________\u000a{end_of_bridge}','','','Aj keby nekvitol fik copy',173,'',173)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=172
+INSERT INTO LOB_IDS VALUES(172,82,0,30)
+DELETE FROM LOB_IDS WHERE LOB_ID=173
+INSERT INTO LOB_IDS VALUES(173,82,1,30)
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(174,0,0,30)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 175
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=173
+INSERT INTO BLOCKS VALUES(173,1,0)
+INSERT INTO BLOCKS VALUES(174,2147483473,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=173
+INSERT INTO LOBS VALUES(173,1,0,174)
+COMMIT
+DELETE FROM LOB_IDS WHERE LOB_ID=174
+INSERT INTO LOB_IDS VALUES(174,82,0,30)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+INSERT INTO TEXTSHADOW VALUES(174,0.0E0,0.0E0,2.0E0,'0x000000ff',0.0E0,TRUE,2.0E0)
+INSERT INTO THEME VALUES(174,'0x000000ff','','',TRUE,FALSE,'0xffffffff','Noto Sans Bold','',0,-1,TRUE,TRUE,'0xf5f5f5ff','Noto Sans Bold Italic',0.0E0,FALSE,174)
+DELETE FROM SONGS WHERE ID=153
+INSERT INTO SONGS VALUES(153,'','','','','','','F#m Bm7 Dmaj7 C#7\u000a______________\u000a{sov}\u000a                 F#m                   Dmaj7\u000aAj keby nekvitol f\u00edk, aj keby nerodila zem,\u000a        Bm                A              C#7\u000aaj keby nebes\u00e1 nedoniesli svetlo a nov\u00e9 r\u00e1no.\u000a         F#m                   Dmaj7\u000aA aj ke\u010f polia zlyhaj\u00fa a s\u00fdpky pr\u00e1zdne ostan\u00fa,\u000a       Bm           A              C#7\u000aaj ke\u010f v\u0161etko v\u00f4kol vol\u00e1, \u017ee Boh nie je.\u000a{eov}\u000a\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7\u000aa budem spieva\u0165 chv\u00e1ly,\u000a          F#m                Bm7     E7\u000auprostred tr\u00e1pen\u00ed, uprostred s\u00fa\u017een\u00ed, Je\u017ei\u0161 je P\u00e1n.\u000a\u000a     A\u000a\u00c1no, pr\u00e1ve vtedy pozdvihnem svoj hlas\u000a  E             C#7     F#m     H7    F#m     H7 H\u000aa budem spieva\u0165 chv\u00e1ly, lebo ver\u00edm, v Neho ver\u00edm,\u000a                 F#m\u000aaj keby nekvitol f\u00edk.\u000a{end_of_chorus}\u000a\u000a           F#m                     Dmaj7\u000aKe\u010f bl\u00edzky priate\u013e opust\u00ed a je tak \u0165a\u017ek\u00e9 odpusti\u0165.\u000a       Bm7            A           C#7\u000aKe\u010f sa m\u00fary v mojom vn\u00fatri, zrazu r\u00facaj\u00fa.\u000a        F#m                           Dmaj7\u000aKe\u010f sa zd\u00e1, \u017ee to neskon\u010d\u00ed, slzy sa tla\u010dia do o\u010d\u00ed,\u000a          Bm            A              C#7\u000aviem, \u017ee stoj\u00ed\u0161 bl\u00edzko t\u00fdch, \u010do v teba d\u00fafaj\u00fa.\u000a{end_of_verse}\u000a\u000a{start_of_bridge: Bridge}\u000a{comment: Bridge}\u000aF#m  Bm7 Dmaj7 C#7\u000a\u00c1 \u00c1 \u00c1__________\u000a{end_of_bridge}','','','Aj keby nekvitol fik copy',174,'',174)
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=173
+INSERT INTO LOB_IDS VALUES(173,82,0,30)
+DELETE FROM LOB_IDS WHERE LOB_ID=174
+INSERT INTO LOB_IDS VALUES(174,82,1,30)
+COMMIT
+SET SCHEMA PUBLIC
+DELETE FROM SONGS WHERE ID=153
+DELETE FROM THEME WHERE ID=174
+DELETE FROM TEXTSHADOW WHERE ID=174
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=174
+INSERT INTO LOB_IDS VALUES(174,82,0,30)
+COMMIT
