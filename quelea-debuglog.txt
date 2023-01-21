@@ -1,25 +1,25 @@
-Jan 21, 2023 11:59:49 AM org.quelea.services.languages.LabelGrabber <init>
+Jan 21, 2023 12:13:43 PM org.quelea.services.languages.LabelGrabber <init>
 INFO: Using languages file /Applications/Quelea.app/Contents/Resources/languages/sk.lang
 
-Jan 21, 2023 11:59:49 AM org.quelea.services.languages.LabelGrabber <init>
+Jan 21, 2023 12:13:43 PM org.quelea.services.languages.LabelGrabber <init>
 INFO: Setting sk locale
 
-jan 21, 2023 11:59:49 AM org.quelea.services.languages.LabelGrabber <init>
+jan 21, 2023 12:13:43 PM org.quelea.services.languages.LabelGrabber <init>
 INFO: Using english language file as backup
 
-jan 21, 2023 11:59:49 AM org.quelea.windows.main.Main start
+jan 21, 2023 12:13:44 PM org.quelea.windows.main.Main start
 INFO: Started, version 2022.0
 
-jan 21, 2023 11:59:49 AM org.quelea.windows.main.Main start
+jan 21, 2023 12:13:44 PM org.quelea.windows.main.Main start
 INFO: OS name: Mac OS X
 
-jan 21, 2023 11:59:49 AM org.quelea.windows.main.Main start
+jan 21, 2023 12:13:44 PM org.quelea.windows.main.Main start
 INFO: Using JAVA version 11.0.12
 
-jan 21, 2023 11:59:49 AM org.quelea.windows.main.Main start
+jan 21, 2023 12:13:44 PM org.quelea.windows.main.Main start
 INFO: 64-bit: true
 
-jan 21, 2023 11:59:50 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:44 PM org.quelea.windows.main.Main$1 run
 WARNING: Exception during VLC initialisation
 java.lang.UnsatisfiedLinkError: Unable to load library 'vlccore':
 dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0009): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
@@ -45,894 +45,780 @@ Native library (darwin/libvlccore.dylib) not found in resource path ([file:/Appl
 		... 5 more
 
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/LiberationSans-Bold.ttf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/LiberationSans-BoldItalic.ttf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/Vegur-Bold.otf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/LiberationSans-Italic.ttf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/LiberationSans-Regular.ttf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.FontInstaller lambda$setupBundledFonts$0
 INFO: Loaded bundled font /Applications/Quelea.app/Contents/Resources/icons/bundledfonts/Vegur-Regular.otf
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.UserFileChecker checkUserFiles
+jan 21, 2023 12:13:47 PM org.quelea.services.utils.UserFileChecker checkUserFiles
 INFO: Checking user files
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Number of displays: 1
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Starting lyric server on 1 111
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Starting remote control server on 1 112
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Starting auto-detection server on 50 015
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Hiding projector display on monitor 0 (base 0!)
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 run
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 run
 INFO: Hiding stage display on monitor 0 (base 0!)
 
-jan 21, 2023 11:59:53 AM org.quelea.windows.main.Main$1 lambda$run$8
+jan 21, 2023 12:13:47 PM org.quelea.windows.main.Main$1 lambda$run$8
 INFO: Loading bibles
 
-jan 21, 2023 11:59:53 AM org.quelea.data.db.HibernateUtil init
+jan 21, 2023 12:13:47 PM org.quelea.data.db.HibernateUtil init
 INFO: Initialising hibernate
 
-jan 21, 2023 11:59:53 AM org.quelea.data.bible.Bible parseBible
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.Bible parseBible
 INFO: Parsing bible: /Users/benjaminstary/.quelea/bibles/SK_Ekumenicky.xml
 
-jan 21, 2023 11:59:53 AM org.quelea.services.utils.Utils getEncoding
-INFO: Detected UTF-8 encoding for /Users/benjaminstary/.quelea/bibles/SK_Ekumenicky.xml
-
-jan 21, 2023 11:59:53 AM org.quelea.data.db.HibernateUtil init
+jan 21, 2023 12:13:48 PM org.quelea.data.db.HibernateUtil init
 INFO: Initialised hibernate properties
 
-jan 21, 2023 11:59:53 AM org.quelea.data.db.HibernateUtil init
+jan 21, 2023 12:13:48 PM org.quelea.services.utils.Utils getEncoding
+INFO: Detected UTF-8 encoding for /Users/benjaminstary/.quelea/bibles/SK_Ekumenicky.xml
+
+jan 21, 2023 12:13:48 PM org.quelea.data.db.HibernateUtil init
 INFO: Initialised hibernate service registry
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 0
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 50 chapters in Genesis
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 1
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 40 chapters in Exodus
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 2
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 27 chapters in Leviticus
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 3
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 36 chapters in Numeri
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 4
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 33 chapters in Deuteronomium
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 5
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 24 chapters in Jozua
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 6
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 21 chapters in Sudcov
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 7
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in Rút
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 8
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 31 chapters in 1.Samuelova
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 9
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 24 chapters in 2.Samuelova
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 10
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 22 chapters in 1.Kráľov
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 11
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 25 chapters in 2.Kráľov
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 12
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 29 chapters in 1.Kronická
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 13
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 36 chapters in 2.Kronická
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 14
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 10 chapters in Ezdráš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 15
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 13 chapters in Nehemiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 16
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 10 chapters in Ester
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 17
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 42 chapters in Jób
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 18
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 150 chapters in Žalmy
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 19
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 31 chapters in Príslovia
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 20
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 12 chapters in Kazateľ
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 21
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 8 chapters in Veľpieseň
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 22
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 66 chapters in Izaiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 23
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 52 chapters in Jeremiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 24
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 5 chapters in Náreky
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 25
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 47 chapters in Ezechiel
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 26
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 12 chapters in Daniel
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 27
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 14 chapters in Ozeáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 28
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in Joel
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 29
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 9 chapters in Amos
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 30
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 1 chapters in Abdiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 31
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in Jonáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 32
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 7 chapters in Micheáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 33
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in Nahum
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 34
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in Habakuk
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 35
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in Sofoniáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 36
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 2 chapters in Aggeus
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 37
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 14 chapters in Zachariáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 38
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in Malachiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 39
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 14 chapters in Tobiáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 40
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 16 chapters in Judita
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 41
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 10 chapters in Ester (grécka verzia)
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 42
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 19 chapters in Kniha Múdrosti
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 43
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 51 chapters in Kniha Sirachovca
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 44
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 28 chapters in Matúš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 45
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 16 chapters in Marek
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 46
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 24 chapters in Lukáš
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 47
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 21 chapters in Ján
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 48
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 28 chapters in Skutky apoštolov
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 49
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 16 chapters in Rimanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 50
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 16 chapters in 1.Korinťanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 51
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 13 chapters in 2.Korinťanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 52
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 6 chapters in Galaťanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 53
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 6 chapters in Efežanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 54
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in Filipanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 55
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in Kolosanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 56
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 5 chapters in 1.Tesaloničanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 57
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in 2.Tesaloničanom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 58
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 6 chapters in 1.Timoteovi
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 59
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 4 chapters in 2.Timoteovi
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 60
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in Títovi
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 61
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 1 chapters in Filemonovi
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 62
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 13 chapters in Hebrejom
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 63
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 5 chapters in Jakubov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 64
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 5 chapters in 1.Petrov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 65
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 3 chapters in 2.Petrov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 66
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 5 chapters in 1.Jánov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 67
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 1 chapters in 2.Jánov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 68
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 1 chapters in 3.Jánov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 69
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 1 chapters in Júdov list
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: Getting book name if possible: length 71 index 70
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBookNameUtil getBookNameForIndex
 INFO: No book names known for length71
 
-jan 21, 2023 11:59:54 AM org.quelea.data.bible.BibleBook parseXML
+jan 21, 2023 12:13:48 PM org.quelea.data.bible.BibleBook parseXML
 INFO: Parsed 22 chapters in Zjavenie Jána
 
-jan 21, 2023 11:59:55 AM org.quelea.services.utils.VersionChecker getLatestVersion
+jan 21, 2023 12:13:49 PM org.quelea.services.utils.VersionChecker getLatestVersion
 INFO: Checking for an updated version...
 
-jan 21, 2023 11:59:57 AM org.quelea.windows.options.customprefs.MobileServerPreference getIP
+jan 21, 2023 12:13:51 PM org.quelea.windows.options.customprefs.MobileServerPreference getIP
 INFO: Storing v6 address, no v4 found yet: null
 
-jan 21, 2023 11:59:57 AM org.quelea.windows.options.customprefs.MobileServerPreference getIP
+jan 21, 2023 12:13:51 PM org.quelea.windows.options.customprefs.MobileServerPreference getIP
 INFO: Found v4: 192.168.0.143
 
-jan 21, 2023 11:59:57 AM org.quelea.windows.options.customprefs.MobileServerPreference getIP
+jan 21, 2023 12:13:51 PM org.quelea.windows.options.customprefs.MobileServerPreference getIP
 INFO: Storing v6 address, no v4 found yet: null
 
-jan 21, 2023 11:59:57 AM org.quelea.windows.options.customprefs.MobileServerPreference getIP
+jan 21, 2023 12:13:51 PM org.quelea.windows.options.customprefs.MobileServerPreference getIP
 INFO: Found v4: 192.168.0.143
 
-jan 21, 2023 11:59:57 AM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:13:51 PM org.quelea.windows.main.MainPanel <init>
 INFO: Creating schedule panel
 
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:58 AM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 11:59:59 AM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:13:53 PM org.quelea.windows.main.MainPanel <init>
 INFO: Creating library panel
 
-jan 21, 2023 11:59:59 AM org.quelea.windows.library.LibraryPanel <init>
+jan 21, 2023 12:13:53 PM org.quelea.windows.library.LibraryPanel <init>
 INFO: Creating library panel
 
-jan 21, 2023 11:59:59 AM org.quelea.windows.library.LibraryPanel <init>
+jan 21, 2023 12:13:53 PM org.quelea.windows.library.LibraryPanel <init>
 INFO: Creating library song panel
 
-jan 21, 2023 11:59:59 AM org.quelea.windows.library.LibraryPanel <init>
+jan 21, 2023 12:13:53 PM org.quelea.windows.library.LibraryPanel <init>
 INFO: Creating library bible panel
 
-jan 21, 2023 12:00:00 PM org.quelea.windows.library.LibraryPanel <init>
+jan 21, 2023 12:13:54 PM org.quelea.windows.library.LibraryPanel <init>
 INFO: Creating library image panel
 
-jan 21, 2023 12:00:00 PM org.quelea.windows.library.LibraryPanel <init>
+jan 21, 2023 12:13:54 PM org.quelea.windows.library.LibraryPanel <init>
 INFO: Creating library timer panel
 
-jan 21, 2023 12:00:00 PM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:13:54 PM org.quelea.windows.main.MainPanel <init>
 INFO: Creating preview panel
 
-jan 21, 2023 12:00:12 PM org.quelea.windows.multimedia.MacVideo lambda$new$0
+jan 21, 2023 12:14:05 PM org.quelea.windows.multimedia.MacVideo lambda$new$0
 WARNING: Couldn't initialise video, load of native library timed out
 
-jan 21, 2023 12:00:12 PM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:14:05 PM org.quelea.windows.main.MainPanel <init>
 INFO: Creating live panel
 
-jan 21, 2023 12:00:12 PM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:14:05 PM org.quelea.windows.main.MainPanel <init>
 INFO: Creating split panels
 
-jan 21, 2023 12:00:12 PM org.quelea.windows.main.MainPanel <init>
+jan 21, 2023 12:14:05 PM org.quelea.windows.main.MainPanel <init>
 INFO: Created main panel
 
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:12 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:20 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:00:20 PM org.quelea.services.utils.QueleaProperties getLastDirectory
-INFO: Cannot find last directory, reverting to default location
-
-jan 21, 2023 12:06:48 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: exit() called
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Saving window position...
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Hiding main window...
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Cleaning up displayables before exiting..
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+INFO: Cleaning up class org.quelea.data.displayable.ImageDisplayable
+
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
-INFO: Cleaning up class org.quelea.data.displayable.SongDisplayable
-
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Try to close OOfice if opened
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Stopping mobile lyrics server
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Stopping remote control server
 
-jan 21, 2023 12:06:55 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
+jan 21, 2023 12:14:56 PM org.quelea.windows.main.actionhandlers.ExitActionHandler exit
 INFO: Checking if Quelea currently is recording audio
 
